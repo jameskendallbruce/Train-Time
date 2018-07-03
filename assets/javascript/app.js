@@ -95,7 +95,7 @@ $( document ).ready(function() {
     
         // Add each train's data into the table
         $("#train-table-body").append("<tr><td>" + newName + "</td><td>" + newDest + "</td><td>" +
-        newFreq + "</td><td>" + nextArrival + "</td><td>" + waitTime + "</td>");
+        newFreq + " minutes </td><td>" + nextArrival + "</td><td>" + waitTime + "</td>");
     });
 
 
