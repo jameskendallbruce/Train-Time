@@ -18,7 +18,7 @@ $( document ).ready(function() {
     var database = firebase.database();
 
     // 2. Button for adding Employees
-    $("#add-employee-btn").on("click", function(event) {
+    $("#add-train-btn").on("click", function(event) {
       event.preventDefault();
     
       // Grabs user input
@@ -69,7 +69,7 @@ $( document ).ready(function() {
       console.log("&" + newFreq);
     
       // Clean up the mess that is the First Train Time input
-      var newFirstClean = moment.unix(empStart).format("HH:mm");
+      var newFirstClean = moment.unix(newFirst).format("HH:mm");
 
     //   remnants of an old timesheet. Here we're making a new train sheet...
     //   // Calculate the months worked using hardcore math
@@ -82,7 +82,7 @@ $( document ).ready(function() {
     //   console.log(empBilled);
     
       // Add each train's data into the table
-      $("#train-table > tbody").append("<tr><td>" + newName + "</td><td>" + newDest + "</td><td>" +
+      $("#train-table-body").append("<tr><td>" + newName + "</td><td>" + newDest + "</td><td>" +
       newFirstClean + "</td><td>" + newFreq + "</td><td>STAND IN FOR NOW</td>");
     });
     

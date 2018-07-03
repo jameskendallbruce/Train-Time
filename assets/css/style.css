@@ -1,0 +1,28 @@
+body {
+    background: url(../images/parchment.jpg);
+    background-size: 100% 100%;
+    font-family: 'Neuton', serif
+}
+
+.jumbotron {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+#title {
+    font-family: 'Ewert', cursive;
+}
+
+#subtitle {
+    font-family: 'Neuton', serif;
+    font-size: 36px;
+}
+
+.blank {
+    border: none;
+    background: none;
+}
+
+.form-control {
+    background: rgba (110, 103, 64, 0.5);
+}
