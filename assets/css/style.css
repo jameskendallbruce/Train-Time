@@ -1,12 +1,14 @@
 body {
     background: url(../images/parchment.jpg);
+    background-repeat: no-repeat;
     background-size: 100% 100%;
-    font-family: 'Neuton', serif
+    font-family: 'Neuton', serif;
+    color: rgb(54, 41, 15)
 }
 
 .jumbotron {
-    padding-top: 25px;
-    padding-bottom: 15px;
+    padding-top: 40px;
+    padding-bottom: 0;
 }
 
 #title {
@@ -18,6 +20,10 @@ body {
     font-size: 36px;
 }
 
+#table-head{
+    font-size: 20px;
+}
+
 .blank {
     border: none;
     background: none;
@@ -25,4 +31,11 @@ body {
 
 .form-control {
     background: rgba (110, 103, 64, 0.5);
+}
+
+.btn {
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: rgb(54, 41, 15)
 }
